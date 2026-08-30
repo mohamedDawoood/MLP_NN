@@ -1,7 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "traing-pytorch"
+name = "MLP_NN"
 version = "0.1.0"
-description = "Add your description here"
+description = "A character-level Language Model implemented from scratch using MLP and PyTorch."
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+keywords = ["deep-learning", "pytorch", "mlp", "nlp", "language-model", "generative-ai"]
+
+authors = [
+    { name = "Mohamed Dawod" }
+]
+
+dependencies = [
+    "torch>=2.0.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/mohamedDawoood/MLP_NN"
+Repository = "https://github.com/mohamedDawoood/MLP_NN"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"]
