@@ -1,5 +1,5 @@
 def main():
-    print("Hello from traing-pytorch!")
+    print("Hello from MLP-NN!")
 
 
 if __name__ == "__main__":
